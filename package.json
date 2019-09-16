@@ -1,0 +1,61 @@
+{
+  "name": "pulseplot",
+  "version": "1.0.0",
+  "description": "Pulse data viewer JS library",
+  "keywords": [
+    "pulse",
+    "canvas",
+    "plot",
+    "sdr"
+  ],
+  "homepage": "https://github.com/triq-org/pulseplot-js#readme",
+  "bugs": "https://github.com/triq-org/pulseplot-js/issues",
+  "license": "GPL-2.0-or-later",
+  "author": "Christian W. Zuckschwerdt <zany@triq.net>",
+  "repository": "github:triq-org/pulseplot-js",
+  "main": "index.js",
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "scripts": {
+    "watch": "webpack --watch",
+    "serve": "webpack serve --content-base ./lib",
+    "build": "webpack",
+    "lint": "eslint lib --ext .js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "eslint": "^7.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "browser": true,
+      "es2021": true
+    },
+    "extends": [
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 12,
+      "sourceType": "module"
+    },
+    "rules": {}
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
