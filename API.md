@@ -17,6 +17,7 @@ The main Pulseplot class.
     * [new Pulseplot(options)](#new_Pulseplot_new)
     * _instance_
         * [.setTheme(options)](#Pulseplot+setTheme)
+        * [.heightDefaults([height])](#Pulseplot+heightDefaults) ⇒ <code>Object</code>
         * [.enableScrollZoom()](#Pulseplot+enableScrollZoom)
         * [.disableScrollZoom()](#Pulseplot+disableScrollZoom)
         * [.destroy()](#Pulseplot+destroy)
@@ -61,13 +62,16 @@ Set a color theme.
 | --- | --- | --- | --- |
 | options | <code>string</code> \| <code>Object</code> |  | Theme name or theme options |
 | [options.hiStroke] | <code>string</code> | <code>&quot;&#x27;#3c3&#x27;&quot;</code> | Mark stroke color |
-| [options.hiFill] | <code>string</code> | <code>&quot;&#x27;rgba(187,0,187,0.2)&#x27;&quot;</code> | Mark fill color |
+| [options.hiFill] | <code>string</code> | <code>&quot;&#x27;rgba(51,204,51,0.1)&#x27;&quot;</code> | Mark fill color |
 | [options.hiLine] | <code>number</code> | <code>3</code> | Mark line width |
+| [options.hiDash] | <code>Array.&lt;number&gt;</code> | <code>[]</code> | Mark dash |
 | [options.loStroke] | <code>string</code> | <code>&quot;&#x27;#c33&#x27;&quot;</code> | Space stroke color |
-| [options.loFill] | <code>string</code> | <code>&quot;&#x27;rgba(153,153,153,0.2)&#x27;&quot;</code> | Space fill color |
+| [options.loFill] | <code>string</code> | <code>&quot;&#x27;rgba(204,204,204,0.1)&#x27;&quot;</code> | Space fill color |
 | [options.loLine] | <code>number</code> | <code>3</code> | Space line width |
+| [options.loDash] | <code>Array.&lt;number&gt;</code> | <code>[]</code> | Space dash |
 | [options.edgeStroke] | <code>string</code> | <code>&quot;&#x27;#ccc&#x27;&quot;</code> | Edges stroke color |
 | [options.edgeLine] | <code>number</code> | <code>1</code> | Edges line width |
+| [options.edgeDash] | <code>Array.&lt;number&gt;</code> | <code>[]</code> | Edge dash |
 | [options.textFill] | <code>string</code> | <code>&quot;&#x27;#666&#x27;&quot;</code> | Texts color |
 | [options.dotFill] | <code>string</code> | <code>&quot;&#x27;#999&#x27;&quot;</code> | Dots color |
 | [options.hintStroke] | <code>string</code> | <code>&quot;&#x27;#aaf&#x27;&quot;</code> | Hints stroke color |
@@ -80,6 +84,19 @@ Set a color theme.
 | [options.timeLabelFill] | <code>string</code> | <code>&quot;&#x27;#333&#x27;&quot;</code> | Time label text color |
 | [options.timeMinorFill] | <code>string</code> | <code>&quot;&#x27;#CCC&#x27;&quot;</code> | Time minor tick color |
 | [options.timeMajorFill] | <code>string</code> | <code>&quot;&#x27;#666&#x27;&quot;</code> | Time major tick color |
+| [options.font] | <code>string</code> | <code>&quot;&#x27;10px sans-serif&#x27;&quot;</code> | Text font |
+
+<a name="Pulseplot+heightDefaults"></a>
+
+### pulseplot.heightDefaults([height]) ⇒ <code>Object</code>
+Get all height options based on total height value.
+
+**Kind**: instance method of [<code>Pulseplot</code>](#Pulseplot)  
+**Returns**: <code>Object</code> - - All height option defaults  
+
+| Param | Type | Default | Description |
+| --- | --- | --- | --- |
+| [height] | <code>number</code> | <code>120</code> | Total height |
 
 <a name="Pulseplot+enableScrollZoom"></a>
 
