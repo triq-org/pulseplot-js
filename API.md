@@ -18,6 +18,8 @@ The main Pulseplot class.
     * _instance_
         * [.setTheme(options)](#Pulseplot+setTheme)
         * [.heightDefaults([height])](#Pulseplot+heightDefaults) ⇒ <code>Object</code>
+        * [.enableUnlockable()](#Pulseplot+enableUnlockable)
+        * [.disableUnlockable()](#Pulseplot+disableUnlockable)
         * [.enableScrollZoom()](#Pulseplot+enableScrollZoom)
         * [.disableScrollZoom()](#Pulseplot+disableScrollZoom)
         * [.destroy()](#Pulseplot+destroy)
@@ -98,6 +100,18 @@ Get all height options based on total height value.
 | --- | --- | --- | --- |
 | [height] | <code>number</code> | <code>120</code> | Total height |
 
+<a name="Pulseplot+enableUnlockable"></a>
+
+### pulseplot.enableUnlockable()
+Enables mouse and touch scroll zoom on double click.
+
+**Kind**: instance method of [<code>Pulseplot</code>](#Pulseplot)  
+<a name="Pulseplot+disableUnlockable"></a>
+
+### pulseplot.disableUnlockable()
+Disables mouse and touch scroll zoom on double click.
+
+**Kind**: instance method of [<code>Pulseplot</code>](#Pulseplot)  
 <a name="Pulseplot+enableScrollZoom"></a>
 
 ### pulseplot.enableScrollZoom()
