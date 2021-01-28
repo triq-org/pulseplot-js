@@ -1,6 +1,6 @@
 {
   "name": "pulseplot",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Pulse data viewer JS library",
   "keywords": [
     "pulse",
