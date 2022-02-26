@@ -46,7 +46,7 @@ The API is detailed in [`API.md`](API.md)
 
 ## Copyright and Licence
 
-Copyright (C) 2019-2021 Christian W. Zuckschwerdt <zany@triq.net>
+Copyright (C) 2019-2022 Christian W. Zuckschwerdt <zany@triq.net>
 
 Unless otherwise noted all sources are:
 
