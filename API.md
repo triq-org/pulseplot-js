@@ -48,6 +48,8 @@ Initialize a new Pulseplot.
 | [options.yHintText] | <code>number</code> | <code>125</code> | Hints text y-offset |
 | [options.scroll] | <code>number</code> | <code>0</code> | Initial scroll offset |
 | [options.zoom] | <code>number</code> | <code>1</code> | Initial zoom factor |
+| [options.unlockable] | <code>boolean</code> | <code>false</code> | Enable unlockable |
+| [options.scrollzoom] | <code>boolean</code> | <code>false</code> | Enable scrollZoom |
 | [options.slicer] | [<code>Slicers</code>](#Slicers) |  | Slicer to apply, unset = auto |
 | options.parent | <code>string</code> \| <code>Object</code> |  | Container element or selector |
 | [options.renderInfo] | <code>string</code> \| <code>Object</code> |  | Info element or selector |
