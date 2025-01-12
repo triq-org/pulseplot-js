@@ -39,14 +39,14 @@ The API is detailed in [`API.md`](API.md)
 
 ## Compiling
 
-- Setup dependencies: `yarn install`
-- Compile and hot-reload for development: `yarn run serve`
-- Compile and minify for production: `yarn run build`
-- Lint and fix files: `yarn run lint`
+- Setup dependencies: `npm install`
+- Compile and hot-reload for development: `npm run serve`
+- Compile and minify for production: `npm run build`
+- Lint and fix files: `npm run lint`
 
 ## Copyright and Licence
 
-Copyright (C) 2019-2022 Christian W. Zuckschwerdt <zany@triq.net>
+Copyright (C) 2019-2025 Christian W. Zuckschwerdt <zany@triq.net>
 
 Unless otherwise noted all sources are:
 
